@@ -3,6 +3,7 @@ def mario
   puts status
   Phrase = "It's-a me, Mario!'
   puts Phrase
+  {mario}.to output("It's-a me, Mario!\n").to_stdout
 end
 
 def toadstool
